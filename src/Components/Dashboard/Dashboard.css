@@ -1,0 +1,39 @@
+.dashboard_main_section{
+    width: 82%;
+    margin-left: auto;
+    margin-top: 120px;
+}
+.dashboard_item_content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3%;
+}
+.dashboard_info{
+    padding: 20px;
+    background-color: #16990a;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.08);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dashboard_info i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #fff;
+}
+.dashboard_info span{
+    color: #fff;
+    font-size: 25px;
+}
+.dashboard_info p{
+    margin-top: 20px;
+    color: #e9e9e9e9;
+}
+.info_one{
+    background-color: orangered;
+}
+.info_tow{
+    background-color: skyblue;
+}
+.info_three{
+    background-color: rgb(255, 99, 132);
+}

@@ -1,0 +1,7 @@
+.bar_chart_item{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2%;
+    padding-bottom: 50px;
+}
