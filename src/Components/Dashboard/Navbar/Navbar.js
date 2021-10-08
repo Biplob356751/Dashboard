@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="nav_menu_item">
                 <nav>
                     <ul>
-                        <li><i className="fas fa-home"></i><Link to="/">Dashboard</Link></li>
+                        <li className="active"><i className="fas fa-home"></i><Link to="/">Dashboard</Link></li>
                         <li><i className="fas fa-headphones"></i><Link to="/addProduct">AddProduct</Link></li>
                         <li><i className="fas fa-comment-dots"></i><Link to="/massage">Massage</Link></li>
                         <li><i className="fas fa-sign-out-alt"></i><Link to="/signout">Sign Out</Link></li>

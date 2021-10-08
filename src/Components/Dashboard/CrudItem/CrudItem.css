@@ -1,0 +1,45 @@
+.crud_content_container{
+    padding: 10px;
+}
+.crud_content_container table{
+    width: 100%;
+	border: 1px solid blue;
+}
+.crud_content_container table th{
+    padding: 10px;
+	background-color: blue;
+	color: #fff;
+	font-size: 16px;
+}
+.crud_content_container table, tr, td{
+    border-collapse: collapse;
+	padding: 10px;
+	background-color: #ffffff;
+	font-size: 13px;
+	color: #000;
+	text-align: center;
+    border-bottom: 1px solid blue;
+}
+.crud_content_container table tr td button{
+    background-color: green;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.crud_content_container table tr td .btn_btn{
+    background-color: red;
+}
+
+.crud_content{
+    margin-bottom: 50px;
+}
+.crud_item{
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+}

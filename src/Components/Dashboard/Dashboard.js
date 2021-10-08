@@ -1,6 +1,7 @@
 import React from 'react';
 import './Dashboard.css';
 import BarChart from './Chart/BarChart';
+import CrudItem from './CrudItem/CrudItem';
 
 const Dashboard = () => {
     return (
@@ -30,6 +31,9 @@ const Dashboard = () => {
                 </div>
                 <div className="chart_section">
                     <BarChart></BarChart>
+                </div>
+                <div className="curd_section">
+                    <CrudItem></CrudItem>
                 </div>
             </div>
         </div>
